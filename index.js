@@ -27,6 +27,7 @@ module.exports = {
     // allow curried function calls in a single line
     // e.g. popWorkingKeyBranch(globalSpace, workingKeyName)()
     'max-statements-per-line': ['off'],
+    'object-curly-spacing': ['error', 'always'],
 
     // allow building capitalized components in tests by calling them as functions
     // e.g. const wrapper = ColorHeader(props)
