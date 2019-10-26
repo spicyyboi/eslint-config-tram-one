@@ -23,7 +23,10 @@ module.exports = {
 
     // no arbitrary counts / limits
     'max-params': ['off'],
-
+    
+    // Remove spaces inside curly braces
+    'object-curly-spacing': ['error', 'never'],
+    
     // allow curried function calls in a single line
     // e.g. popWorkingKeyBranch(globalSpace, workingKeyName)()
     'max-statements-per-line': ['off'],
